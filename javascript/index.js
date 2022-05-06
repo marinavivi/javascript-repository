@@ -40,22 +40,16 @@ const rotatedArray = rotateArrayToRight(colors, 2);
 console.log('rotated array: ' + rotatedArray);
 
 
-function reduceArrayFromIndex (array, index) {
+function reduceArrayFromIndex (array) {
 
-    const summ = array.slice(index).reduce((summ, currentValue) => {
+    const summ = array.reduce((summ, currentValue) => {
         return summ + currentValue;
-    }, 0);
+    }, 50);
     console.log('summ: ' + summ);
 
 }
-const numbers = [
-    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-];
-reduceArrayFromIndex(numbers, 50);
+const numbers = [2, 4, 6, 8, 10, 12];
+reduceArrayFromIndex(numbers);
 
 console.log('return array from number:')
 function returnArrayFromNumber (number) {
