@@ -48,8 +48,8 @@ function reduceArrayFromIndex (array) {
     console.log('summ: ' + summ);
 
 }
-const numbers = [2, 4, 6, 8, 10, 12];
-reduceArrayFromIndex(numbers);
+const nms = [2, 4, 6, 8, 10, 12];
+reduceArrayFromIndex(nms);
 
 console.log('return array from number:')
 function returnArrayFromNumber (number) {
