@@ -19,9 +19,9 @@ let jsonPerson = JSON.stringify(person);
 console.log('json format json stringify person:')
 console.log(jsonPerson);
 
-const numbers = [2, 4, 6, 8, 10, 12];
+const values = [2, 4, 6, 8, 10, 12];
 console.log('array of numbers:')
-console.log(numbers);
+console.log(values);
 
 let jsonNumbers = '[2, 4, 6, 8, 10, 12]';
 console.log('json format of array of numbers:')
