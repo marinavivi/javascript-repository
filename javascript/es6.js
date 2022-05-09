@@ -1,4 +1,3 @@
-// let, const, var
 let testLet = 'hello';
 const testConst = 
 {

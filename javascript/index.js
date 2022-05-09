@@ -1,11 +1,11 @@
-const person = 
+const per = 
 {
     firstName: "FirstName",
     lastName: "LastName",
     age: 100
 }
 console.log('javascript object person:')
-console.log(person);
+console.log(per);
 
 let json = '{"firstName":"FirstName", "lastName":"LastName", "age":100}';
 console.log('json format person:')
@@ -15,7 +15,7 @@ const personJSON = JSON.parse(json);
 console.log('javascript object json.parse json:')
 console.log(personJSON);
 
-let jsonPerson = JSON.stringify(person);
+let jsonPerson = JSON.stringify(per);
 console.log('json format json stringify person:')
 console.log(jsonPerson);
 
